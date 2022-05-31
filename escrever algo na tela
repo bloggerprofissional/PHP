@@ -1,0 +1,14 @@
+No PHP para escrever, Inserir ou exibir algo na tela utilizamos "echo"
+Veja no Exemplo a baixo:
+
+<?php
+// Escrever texto na tela (echo)
+// Juntar o texto com ponto "."
+$nome = "Adam";
+$sobrenome = 'Smith';
+echo "Meu nome é: ".$nome." ".$sobrenome;
+
+
+// Dentro de uma string com aspas dupla "
+echo "<br/> Meu nome é: $nome"
+?>
